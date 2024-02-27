@@ -1,0 +1,20 @@
+#container {
+    display: flex;
+    height: 95vh;
+    background: lightgray;
+  }
+
+/* This selector selects all divs inside of container */
+.column {
+    display: flex;
+    flex-direction: column;
+    background: peachpuff;
+    border: 1.5px solid brown;
+    flex: auto;
+  }
+
+.boxes {
+    background: lightblue;
+    border: 1px solid black;
+    flex:auto;
+  }
