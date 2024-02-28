@@ -11,3 +11,15 @@ for (let i = 0; i <16; i++) {
       column.appendChild(boxes);
     }
   }
+
+// Change color of box div on mouse over
+const boxes = document.querySelectorAll('.boxes')
+
+// Iterate through nodelist
+boxes.forEach((box) => {
+
+  // For each one add a 'mouseover' listener
+  box.addEventListener('mouseover', () => {
+    box.style.background = 'red';
+  });
+});
